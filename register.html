@@ -6,15 +6,91 @@
     <title>Flipkart|Register</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
-  <body>
+  <body class="bg-dark text-white">
     <!-- nav bar -->
+<div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="logo" width="200px" height="50px">
+    </a>
+    <form class="d-flex w-75" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">Register</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Category
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Fashion</a></li>
+            <li><a class="dropdown-item" href="#">Grocery</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Electronics</a></li>
+          </ul>
+        </li>
 
+      </ul>
+
+    </div>
+  </div>
+</nav>
+        </div>
+    </div>
 
     <!-- register form -->
+    <h1>Register</h1>
 
-    
     <!-- footer -->
+    <div class="container-fluid m-2 text-white fixed-bottom">
+      <div class="row">
+        <div class="col-3">
+          <h3>Address</h3>
+          <hr>
+          <span>Borivali(West) <br>Mumbai-400099 </span>
+        </div>
 
+        <div class="col-3">
+          <h3>Links</h3>
+          <hr>
+          <a href="index.html">Home</a> <br>
+          <a href="#">Login</a> <br>
+          <a href="#">About</a> <br>
+          <a href="#">Contact</a> 
+        </div>
+
+        <div class="col-3">
+          <h3>Socials</h3>
+          <hr>
+          <a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a> <br>
+          <a href="https://www.twitter.com" target="_blank"><i class="bi bi-twitter"></i></a> <br>
+          <a href="https://www.instagram.com" target="_blank"><i class="bi bi-instagram"></i></a> 
+        </div>
+
+        <div class="col-3">
+          <h3>Services</h3>
+          <hr>
+          <span>Products<br>Delivery<br>Warehouse</span>
+        </div>
+
+      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
   </body>
